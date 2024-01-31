@@ -18,9 +18,6 @@ h1{
 }
 
 
-a:hover{
-    color: lightblue;
-}
 
 .navbar a{
 
@@ -58,6 +55,8 @@ p{
 
 }
 
+
+
 button:hover
 {
     cursor: pointer;
@@ -79,7 +78,11 @@ button{
     display: inline;
 }
 
-#General\ Information:hover{
+#gen:hover{
+    color: dimgrey;
+}
+
+#basics:hover{
     color: dimgrey;
 }
 
@@ -102,5 +105,9 @@ button{
     width: 80px;
 }
 
+#CSS-Basics > a:hover
+{
+    color: dimgrey;
+}
 
 
