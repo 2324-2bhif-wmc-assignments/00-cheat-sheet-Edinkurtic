@@ -4,7 +4,7 @@ body{
     background-color: white;
 
 }
-h1{
+h1, h2, h3, h4{
     font-size: xx-large;
     text-align: center;
     color: #edebef;
@@ -90,10 +90,6 @@ button{
     color: dimgrey;
 }
 
-#Animations > a:hover{
-    color: dimgrey;
-}
-
 #Html\ Logo {
     position: fixed;
     bottom: 0;
@@ -142,5 +138,6 @@ th {
     list-style-type: square;
 
 }
+
 
 
