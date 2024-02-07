@@ -113,6 +113,13 @@ p{
 #Html-Navbar a:hover {
     background-color: lightgray;
 }
+
+#Html-Text > article > p{
+    font-family: sans-serif;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
 #CSS-Basics {
     border: solid 1px;
     border-radius: 1rem;
@@ -145,10 +152,34 @@ p{
     font-size: 1rem;
 }
 
-
-
 #Box-Model > img{
     height: 15rem;
+}
+
+#Flex-Box > img{
+    width: 25rem;
+}
+
+#Animation-Button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    margin-top: -5rem;
+    margin-right: 4rem;
+    width: 8rem;
+    height: 4rem;
+}
+
+#Animation-Button:hover{
+    animation: changeColor 2s forwards infinite; /* Animation when button is clicked */
+}
+
+@keyframes changeColor {
+    from{background-color: white}
+    to {
+        background-color: black;
+    }
 }
 
 #General-Information{
@@ -175,6 +206,12 @@ p{
 #General-Information > p{
     padding: 0.5rem;
     font-weight: bold;
+}
+
+#General-Text > article > p{
+    font-family: sans-serif;
+    margin-left: 1rem;
+    font-size: 1rem;
 }
 
 button:hover
