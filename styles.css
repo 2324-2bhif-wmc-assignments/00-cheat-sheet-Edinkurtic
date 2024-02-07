@@ -59,7 +59,50 @@ p{
 
 }
 
+#Container{
+    display: flex;
+}
 
+#Html-Information > a > img{
+    width: 13rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+#Html-Information > p{
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+#Html-Information{
+    border: solid 1px;
+    border-radius: 1rem;
+    margin-top: 10rem;
+    margin-left: 6rem;
+    width: 15rem;
+    height: 25rem;
+}
+
+#CSS-Basics {
+    border: solid 1px;
+    border-radius: 1rem;
+    margin-left: 6rem;
+    width: 15rem;
+    height: 25rem;
+    margin-top: 10rem;
+}
+
+#CSS-Basics > a > img {
+    width: 14rem;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+#CSS-Basics > p{
+    padding: 0.5rem;
+    font-weight: bold;
+
+}
 
 button:hover
 {
@@ -82,35 +125,7 @@ button{
     display: inline;
 }
 
-#gen:hover{
-    color: dimgrey;
-}
-
 #basics:hover{
-    color: dimgrey;
-}
-
-#Html\ Logo {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    height: 80px;
-    width: 80px;
-}
-
-#Css\ Logo {
-    position: fixed;
-    bottom: 0;
-    right: 90px;
-    margin-bottom: 10px;
-    height: 80px;
-    width: 80px;
-}
-
-#CSS-Basics > a:hover
-{
     color: dimgrey;
 }
 
@@ -136,6 +151,11 @@ th {
 
 #List-Example > ul > li{
     list-style-type: square;
+}
+
+#Important-Css-Tags > img{
+    margin-top: 2rem;
+    height: 17rem;
 }
 
 
