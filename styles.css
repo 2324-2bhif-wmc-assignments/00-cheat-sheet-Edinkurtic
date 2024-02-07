@@ -1,9 +1,20 @@
 
 body{
     font-family: Arial, sans-serif, Helvetica;
-    background-color: #eff6ef;
+
 }
 
+#Index{
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0%{background-color: white}
+    50%{background-color: #a2a2a2}
+}
 
 h1, h2, h3, h4{
     font-size: xx-large;
@@ -13,6 +24,7 @@ h1, h2, h3, h4{
     height: 50px;
     border-radius: 12px;
     font-weight: bold;
+    margin-left: 1rem;
 }
 
 article{
@@ -59,6 +71,18 @@ p{
     display: flex;
 }
 
+#Animation-Button:hover{
+    animation-name: button;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes button {
+    from{background-color: white}
+    to{background-color: black}
+}
+
 #Html-Information > a > img{
     width: 13rem;
     padding-left: 1rem;
@@ -83,7 +107,13 @@ p{
     background-color: lightgray;
     transition: background-color 0.3s, box-shadow 1s;
     box-shadow: black 4px 4px 4px 4px;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+
 }
+
+
 
 #Html-Navbar > div{
     display: flex;
@@ -133,6 +163,10 @@ p{
     background-color: lightgray;
     transition: background-color 0.3s, box-shadow 1s;
     box-shadow: black 4px 4px 4px 4px;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+
 }
 
 #CSS-Basics > a > img {
@@ -171,16 +205,6 @@ p{
     height: 4rem;
 }
 
-#Animation-Button:hover{
-    animation: changeColor 2s forwards infinite; /* Animation when button is clicked */
-}
-
-@keyframes changeColor {
-    from{background-color: white}
-    to {
-        background-color: black;
-    }
-}
 
 #General-Information{
     border: solid 1px;
@@ -194,6 +218,10 @@ p{
     background-color: lightgray;
     transition: background-color 0.3s, box-shadow 1s;
     box-shadow: black 4px 4px 4px 4px;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+
 }
 
 #General-Information > a > img{
@@ -225,7 +253,7 @@ button{
     background-color:blue;
     color: #fff;
     font-weight: bold;
-    font-family: Arial;
+    font-family: Arial,sans-serif;
     border: none;
     padding: 1rem;
     border-radius: 8px;
@@ -246,15 +274,31 @@ button{
     padding-top: 1rem   ;
 }
 
-#Bootstrap > p{
-    padding: 0.5rem;
-    font-weight: bold;
+#Bootstrap-Text > article > p{
+    font-family: sans-serif;
+    margin-left: 1rem;
+    font-size: 1rem;
 }
 
 #Bootstrap:hover{
     background-color: lightgray;
     transition: background-color 0.3s, box-shadow 1s;
     box-shadow: black 4px 4px 4px 4px;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+
+}
+
+.card:hover{
+    background-color: lightgray;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+.card{
+    margin-left: 1rem;
 }
 
 table {

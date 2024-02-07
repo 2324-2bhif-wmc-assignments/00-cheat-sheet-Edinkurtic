@@ -1,316 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!DOCTYPE html>
+    <html lang="en">
 
-</head>
-    <link type="text/css" rel ="stylesheet" href="./styles.css" />
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link type="text/css" rel="stylesheet" href="./styles.css" />
+    </head>
 
-</head>
-<body>
+    <body>
 
     <div id="Html-Navbar">
         <div>
-
             <button id="button" onclick="location.href='index.html'">Home Page </button>
-
             <div>
-                <a href="#List-Example">
-                    Lists
-                </a>
+                <a href="#List-Example">Lists</a>
             </div>
             <div>
-                <a href="#Tables">
-                     Tables
-                </a>
+                <a href="#Tables">Tables</a>
             </div>
-
-
-
         </div>
-
     </div>
 
     <div id="Return-Button">
         <a href="#Html-Navbar">
-            <img src="arrow-up.svg">
+            <img src="arrow-up.svg" alt="An arrow pointing upwards">
         </a>
     </div>
 
     <hr>
 
-    <h1>
-        Html Basics
-    </h1>
+    <h1>Html Basics</h1>
 
     <div id="Html-Text">
 
-    <hr>
-
-    <article>
-
-      <strong> DOCTYPE</strong>
-
-      <p> A Doctype is used at the start of every HTML Document. </p>
-
-      <p> A Doctype is not case sensitive. That means that you dont have to worry about larger and lower writing (for example "doctype","DOCTYPE")</p>
-
-      <p> Every Browser accepts Doctype.</p>
-
-      <p> The declaration is an information to the browser about what document type to expect. </p>
-
-    </article>
-
-    <article>
-
-      <strong> HTML Tag</strong>
-
-      <p> The html tag represents the root of an HTML document.</p>
-
-      <p> The html tag is the container for all other HTML elements (except for the DOCTYPE tag).</p>
-
-    </article>
-
-    <article>
-
-
-      <strong>
-        HTML Head Tag
-      </strong>
-
-
-       <p>The head element is a container for metadata and is located between the html and body tag.</p>
-
-    </article>
-
-    <article>
-
-
-      <strong> HTML Meta Tag</strong>
-
-      <p> The meta tag defines metadata about an HTML document. Metadata is data (information) about data. </p>
-
-      <p> Meta tags always go into the head element. They are oftern used to specify page description and viewport settings.</p>
-
-      <p> Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.</p>
-    </article>
-
-    <article>
-
-      <strong> HTML Link Tag</strong>
-
-      <p> The tag defines the relationship between the current document and an external resource. </p>
-
-      <p> The link tag is most often used to link to external style sheets or to add a favicon (little logo beside the websites name) to your website.</p>
-    </article>
-
-    <article>
-
-      <strong>HTML Title Tag</strong>
-
-      <p> The title tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</p>
-
-      <p> It is mandatory in HTML Documents. </p>
-
-      <p> You cannot have more than 1 title in your Document.</p>
-
-      <p> It defines a title in the browser toolbar.</p>
-
-      <p> It displays a title for the page in search-engine results </p>
-
-      <p> Try to keep Our title in a word range of about 50 - 60 words.</p>
-
-
-    </article>
-
-    <article>
-
-      <strong>HTML Entities</strong>
-
-      <p> A commonly used entity in HTML is the non-breaking space: nbsp </p>
-
-      <p> 1 Advantage of an entity name is that it is easy to remember. </p>
-
-      <p> 1 Disadvatage is that not all browsers support entitiy names. </p>
-
-    </article>
-
-    <article>
-
-      <strong> The Body element</strong>
-
-      <p> The body tag defines the documents body. </p>
-
-      <p> The Body tag contains all the contents of a HTML Document (hyperlinks, images .etc) </p>
-
-      <p> There can only be one Body element in an HTML Document. </p>
-
-    </article>
-
-    <article>
-
-
-      <strong>The article tag</strong>
-
-      <p> The article tag specifies independent, self-contained content. </p>
-
-      <p> Articles are used in forum post and news stories for example. </p>
-
-      <p> You can use CSS to style the article element. </p>
-
-    </article>
-
-    <article>
-
-      <strong>The Section element </strong>
-
-      <p> The section tag defines a section in a document. </p>
-
-    </article>
-
-    <article>
-
-
-      <strong> The paragraph tag</strong>
-
-      <p> The p tag defines a paragraph. </p>
-
-      <p> You can use CSS to style paragraphs. </p>
-
-    </article>
-
-    <article>
-
-
-      <strong> The div tag</strong>
-
-      <p> The div tag defines a division or a section in an HTML document. </p>
-
-      <p> Any sort of content can be put inside the div tag! </p>
-
-      <p> By default, browsers always place a line break before and after the div element.</p>
-
-    </article>
-
-    <article>
-
-
-      <strong> The span element</strong>
-
-      <p> The span tag is an inline container used to mark up a part of a text, or a part of a document. </p>
-
-      <p> The span tag is much like the div element, but div is a block-level element and span is an inline element. </p>
-
-      <p> The a tag defines a hyperlink, which is used to link from one page to another. </p>
-
-      <p> The most important attribute of the a element is the href attribute, which indicates the link's destination. </p>
-
-    </article>
+        <hr>
+
+        <article>
+            <h2>DOCTYPE</h2>
+            <p> A Doctype is used at the start of every HTML Document.</p>
+            <p> A Doctype is not case sensitive. That means that you don't have to worry about larger and lower writing (for example "doctype","DOCTYPE")</p>
+            <p> Every Browser accepts Doctype.</p>
+            <p> The declaration is an information to the browser about what document type to expect.</p>
+        </article>
 
         <hr>
 
-    <div id="List-Example">
-        <h1>
-            Lists
-        </h1>
-        <ol>
-            <li>
-                This is
-            </li>
-            <li>
-                a Ordered List
-            </li>
+        <article>
+            <h2>HTML Tag</h2>
+            <p> The html tag represents the root of an HTML document.</p>
+            <p> The html tag is the container for all other HTML elements (except for the DOCTYPE tag).</p>
+        </article>
 
-        </ol>
-        <ul>
-            <li>
-                This is
-            </li>
-            <li>
-                a Unordered List
-            </li>
-            <li>
-                With an square as a bullet point
-            </li>
-        </ul>
-
-        <img src="Screenshot%202024-02-07%20072903.png" alt="List-Picture">
-    </div>
 
         <hr>
 
-    <div id="Tables">
-        <h2>
-            Tables
-        </h2>
+        <div id="List-Example">
+            <h1>Lists</h1>
+            <ol>
+                <li>This is</li>
+                <li>a Ordered List</li>
+            </ol>
+            <ul>
+                <li>This is</li>
+                <li>a Unordered List</li>
+                <li>With a square as a bullet point</li>
+            </ul>
+            <img src="Screenshot%202024-02-07%20072903.png" alt="List-Picture">
+        </div>
 
-        <ul>
-            <li>
-               create table: table
-            </li>
-            <li>
-               create table row: tr
-            </li>
-            <li>
-               create table head: thead
-            </li>
-            <li>
-            create table body: tbody
-            </li>
-            <li>
-                create table data: td
-            </li>
-        </ul>
+        <hr>
+
+        <div id="Tables">
+            <h2>Tables</h2>
+            <ul>
+                <li>create table: table</li>
+                <li>create table row: tr</li>
+                <li>create table head: thead</li>
+                <li>create table body: tbody</li>
+                <li>create table data: td</li>
+            </ul>
+            <img src="Screenshot%202024-02-07%20072302.png" alt="Table">
+        </div>
+
+        <div id="Important-tags">
+            <table>
+                <tr>
+                    <th>Action</th>
+                    <th>Html-Tag</th>
+                </tr>
+                <tr>
+                    <td>Create Table</td>
+                    <td>table, tr, td, th</td>
+                </tr>
+                <tr>
+                    <td>Create List</td>
+                    <td>li, ul, ol, dl</td>
+                </tr>
+                <tr>
+                    <td>Headers (only 1 to 6)</td>
+                    <td>h1, h2, h3, h4, h5, h6</td>
+                </tr>
+                <tr>
+                    <td>Image</td>
+                    <td>img, background-image: url("img.png")</td>
+                </tr>
+            </table>
+        </div>
     </div>
+    </body>
 
-        <img src="Screenshot%202024-02-07%20072302.png" alt="Table">
-
-    <div id="Important-tags">
-        <table>
-            <tr>
-                <th>Action</th>
-                <th>Html-Tag</th>
-            </tr>
-            <tr>
-                <td>
-                    Create Table
-                </td>
-                <td>
-                    table, tr, td, th
-                </td>
-
-            </tr>
-            <tr>
-                <td>
-                    Create List
-                </td>
-                <td>
-                    li, ul, ol, dl
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Headers (only 1 to 6)
-                </td>
-                <td>
-                    h1, h2, h3, h4, h5, h6
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Image
-                </td>
-                <td>
-                    img, background-image: url("img.png")
-                </td>
-            </tr>
-
-        </table>
-    </div>
-
-    </div>
-</body>
-
-
-</html>
+    </html>

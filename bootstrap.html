@@ -1,22 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Bootstrap</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="./styles.css">
-
 </head>
+
 <body>
-    <div id="Html-Navbar">
-        <div>
-            <button id="button" onclick="location.href='index.html'">Home Page </button>
+<div id="Html-Navbar">
+    <button id="button" onclick="location.href='index.html'">Home Page </button>
+</div>
+
+<hr>
+
+<h1>Bootstrap Cards</h1>
+
+<div id="Bootstrap-Text">
+    <article>
+        <h2>Introduction to Bootstrap Cards</h2>
+        <p>
+            A card is a flexible and extensible content container.
+            It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+        </p>
+    </article>
+
+    <section id="Cards">
+        <div class="card text-center" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">You like Bootstrap</h5>
+                <p class="card-text">In that case</p>
+                <a href="https://getbootstrap.com" class="btn btn-primary">Read</a>
+            </div>
         </div>
-    </div>
+    </section>
 
+    <hr>
 
-</body>
+    <h1>Bootstrap Carousel</h1>
+
+    <article>
+        <h2>Introduction to Bootstrap Carousel</h2>
+        <p>
+            The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript.
+            It works with a series of images, text, or custom markup.
+            It also includes support for previous/next controls and indicators.
+        </p>
+    </article>
+
+    <section id="Carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-background">
+                    <img src="4k-mountain-l3f04sogeaabr5h0.jpg" class="mx-auto d-block w-50" alt="A mountain">
+                </div>
+                <div class="carousel-item carousel-background">
+                    <img src="animals-world-4k-scenic-wildlife-600nw-2148359813.webp" class="mx-auto d-block w-50" alt="A tiger">
+                </div>
+                <div class="carousel-item carousel-background">
+                    <img src="853816.jpg" class="mx-auto d-block w-50" alt="An Island">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <h1>Bootstrap Navbar</h1>
+
+    <article>
+        <h2>Introduction to Bootstrap Navbar</h2>
+        <p>
+            A navbar (navigation bar) is a fundamental component in web development that provides a user-friendly way to navigate through different sections or pages of a website.
+            It typically contains links, buttons, or other navigation elements to help users explore and interact with the content.
+        </p>
+    </article>
+
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 
 </html>
