@@ -2,25 +2,22 @@
 body{
     font-family: Arial, sans-serif, Helvetica;
     background-color: #eff6ef;
-
 }
+
+
 h1, h2, h3, h4{
     font-size: xx-large;
-    text-align: center;
-    color: #edebef;
-    font-style: italic;
-    background-color: lightblue;
+    color: #7beac3;
+    font-family: sans-serif;
     width: 100%;
     height: 50px;
     border-radius: 12px;
     font-weight: bold;
-
 }
 
 article{
     margin-top: 2rem;
 }
-
 
 .navbar a{
 
@@ -84,11 +81,19 @@ p{
 
 #Html-Information:hover{
     background-color: lightgray;
+    transition: background-color 0.3s, box-shadow 1s;
+    box-shadow: black 4px 4px 4px 4px;
 }
 
 #Html-Navbar > div{
     display: flex;
+}
 
+#Return-Button > a > img{
+    position: fixed;
+    width: 2rem;
+    right: 10px;
+    top: 30px;
 }
 
 #Html-Navbar > div > div{
@@ -102,6 +107,7 @@ p{
     font-weight: bold;
     transition: background-color 0.3s;
     margin-left: 2rem;
+    border-radius: 12px;
 }
 
 #Html-Navbar a:hover {
@@ -118,6 +124,8 @@ p{
 
 #CSS-Basics:hover{
     background-color: lightgray;
+    transition: background-color 0.3s, box-shadow 1s;
+    box-shadow: black 4px 4px 4px 4px;
 }
 
 #CSS-Basics > a > img {
@@ -129,7 +137,18 @@ p{
 #CSS-Basics > p{
     padding: 0.5rem;
     font-weight: bold;
+}
 
+#Css-Texts > article > p{
+    font-family: sans-serif;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+
+
+#Box-Model > img{
+    height: 15rem;
 }
 
 #General-Information{
@@ -142,12 +161,20 @@ p{
 
 #General-Information:hover{
     background-color: lightgray;
+    transition: background-color 0.3s, box-shadow 1s;
+    box-shadow: black 4px 4px 4px 4px;
 }
 
 #General-Information > a > img{
+    width: 14rem;
     padding-top: 1rem;
-    padding-left: 0.5rem;
+    padding-left: 0.2rem;
 
+}
+
+#General-Information > p{
+    padding: 0.5rem;
+    font-weight: bold;
 }
 
 button:hover
@@ -167,12 +194,31 @@ button{
     border-radius: 8px;
 }
 
-
-
-#basics:hover{
-    color: dimgrey;
+#Bootstrap{
+    border: solid 1px;
+    border-radius: 1rem;
+    margin-top: 10rem;
+    margin-left: 6rem;
+    width: 14rem;
 }
 
+#Bootstrap > a > img{
+    width: 10rem;
+    height: 10rem;
+    padding-left: 2rem;
+    padding-top: 1rem   ;
+}
+
+#Bootstrap > p{
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+#Bootstrap:hover{
+    background-color: lightgray;
+    transition: background-color 0.3s, box-shadow 1s;
+    box-shadow: black 4px 4px 4px 4px;
+}
 
 table {
     border-collapse: collapse;

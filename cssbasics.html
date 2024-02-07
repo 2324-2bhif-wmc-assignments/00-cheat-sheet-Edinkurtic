@@ -9,147 +9,183 @@
 </head>
 <body>
 
-    <div>
+        <div id="Html-Navbar">
+            <div>
 
-        <button type ="button" onclick="location.href='cheetsheet.html'">Home Page </button>
+                <button id="button" onclick="location.href='index.html'">Home Page </button>
 
-    </div>
+                <div>
+                    <a href="#Important-Css-Tags">
+                        Lists
+                    </a>
+                </div>
+                <div>
+                    <a href="#Example-Table">
+                        Tables
+                    </a>
+                </div>
 
-    <hr>
-
-    <h1>
-        Css Basics
-    </h1>
-
-    <article>
-        <br>
-
-        <strong> The CSS element Selector </strong>
-
-      <p>
-        The element selector selects HTML elements based on the element name.
-      </p>
-
-      <strong>The Background </strong>
-
-      <p> The Background color can be changed.</p>
-
-      <p>Css colors are defined by either a valid name or a hex or a rgb value.</p>
-
-      <strong>Text in CSS</strong>
-
-      <p>The color of the text can be changed with "color: blue" (example)</p>
-
-      <p>With Text-align you can make the text left center or right aligned</p>
-
-      <p>With Text-decoration-line you can decorate the text for example (text-decoration-line: overline);</p>
-
-      <p>The font-weight property specifies the weight of a font for example (font-weight: normal)</p>
-
-      <strong>Links in CSS</strong>
-
-      <p>You can change the color of links with color: (color).</p>
-
-      <p> Depending on the state, links can have different color for example (a:visited) in this case the link would be a lighter color beacause it was visited</p>
-
-      <p> When coding, the a:link has to be the first, after that the visited and the hover, and at last the active link.</p>
-
-      <strong>Pseudo Classes</strong>
-
-      <p>A pseudo class is used to define the state of an element</p>
-
-      <p>The first-child pseudo-class matches a element that is the first child of another element.</p>
-
-    </article>
-
-    <article>
-       <strong>
-           Margin and Padding
-       </strong>
-
-        <p>Margin is used to add a gap outside of a box</p>
-        <p>Padding is used to add a gap inside of a box</p>
-        <p>Rem is the unit used for it</p>
-
-        <p>
-            Syntax: margin/padding: (your value) rem;
-        </p>
-
-    </article>
-
-    <article>
-        <strong>
-            Float
-        </strong>
-
-        <p>Floats are used to move pictures around our website</p>
-        <p>The possible directions are left right none or inherit</p>
-        <p>The CSS float property specifies how an element should float. The CSS clear property specifies what elements can float beside the cleared element and on which side.</p>
-        <p>
-            Syntax: float: left, right, none, inherit;
-        </p>
-    </article>
-
-    <div id="Important-Css-Tags">
-        <h2>
-            Lists
-        </h2>
-
-        <ul>
-            <li>
-                change bullet point to square: list-style-type: square;
-            </li>
-            <li>
-                bullet is image (list-style-image: url("my-bullet.png");)
-            </li>
-            <li>
-                bullet position to be outside/inside (list-style-position: outside/inside;)
-            </li>
-        </ul>
-
-        <img src="Screenshot%202024-02-07%20072903.png">
-
-        <h3>
-            Tables
-        </h3>
-
-        <ul>
-            <li>
-                Black dotted border (border: 1px dotted black;)
-            </li>
-            <li>
-                Merge the borders of table cells so that they appear as one line (border-collapse: collapse;)
-            </li>
-        </ul>
-
-        <table id="Example-Table">
-            <tr>
-                <th>Header 1</th>
-                <th>Header 2</th>
-            </tr>
-            <tr>
-                <td>
-                    Content 1
-                </td>
-                <td>
-                    Content 2
-                </td>
-
-            </tr>
-            <tr>
-                <td>
-                    Content 3
-                </td>
-                <td>
-                    Content 4
-                </td>
-            </tr>
-        </table>
-
-        <img src="Screenshot%202024-02-07%20072302.png">
-
+            </div>
         </div>
-    </div>
 
+        <hr>
+
+        <h1>
+            Css Basics
+        </h1>
+
+        <hr>
+
+        <div id="Css-Texts">
+
+
+        <article>
+            <br>
+
+            <strong> The CSS element Selector </strong>
+
+          <p>
+            The element selector selects HTML elements based on the element name.
+          </p>
+
+          <strong>The Background </strong>
+
+          <p> The Background color can be changed.</p>
+
+          <p>Css colors are defined by either a valid name or a hex or a rgb value.</p>
+
+          <strong>Text in CSS</strong>
+
+          <p>The color of the text can be changed with "color: blue" (example)</p>
+
+          <p>With Text-align you can make the text left center or right aligned</p>
+
+          <p>With Text-decoration-line you can decorate the text for example (text-decoration-line: overline);</p>
+
+          <p>The font-weight property specifies the weight of a font for example (font-weight: normal)</p>
+
+          <strong>Links in CSS</strong>
+
+          <p>You can change the color of links with color: (color).</p>
+
+          <p> Depending on the state, links can have different color for example (a:visited) in this case the link would be a lighter color beacause it was visited</p>
+
+          <p> When coding, the a:link has to be the first, after that the visited and the hover, and at last the active link.</p>
+
+          <strong>Pseudo Classes</strong>
+
+          <p>A pseudo class is used to define the state of an element</p>
+
+          <p>The first-child pseudo-class matches a element that is the first child of another element.</p>
+
+        </article>
+
+        <article>
+           <strong>
+               Margin and Padding
+           </strong>
+
+            <p>Margin is used to add a gap outside of a box</p>
+            <p>Padding is used to add a gap inside of a box</p>
+            <p>Rem is the unit used for it</p>
+
+            <p>
+                Syntax: margin/padding: (your value) rem;
+            </p>
+
+        </article>
+
+        <article>
+            <strong>
+                Float
+            </strong>
+
+            <p>Floats are used to move pictures around our website</p>
+            <p>The possible directions are left right none or inherit</p>
+            <p>The CSS float property specifies how an element should float. The CSS clear property specifies what elements can float beside the cleared element and on which side.</p>
+            <p>
+                Syntax: float: left, right, none, inherit;
+            </p>
+        </article>
+
+            <hr>
+
+        <div id="Important-Css-Tags">
+            <h2>
+                Lists
+            </h2>
+
+            <ul>
+                <li>
+                    change bullet point to square: list-style-type: square;
+                </li>
+                <li>
+                    bullet is image (list-style-image: url("my-bullet.png");)
+                </li>
+                <li>
+                    bullet position to be outside/inside (list-style-position: outside/inside;)
+                </li>
+            </ul>
+
+            <hr>
+
+            <h3>
+                Tables
+            </h3>
+
+            <ul>
+                <li>
+                    Black dotted border (border: 1px dotted black;)
+                </li>
+                <li>
+                    Merge the borders of table cells so that they appear as one line (border-collapse: collapse;)
+                </li>
+            </ul>
+
+            <table id="Example-Table">
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+                <tr>
+                    <td>
+                        Content 1
+                    </td>
+                    <td>
+                        Content 2
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Content 3
+                    </td>
+                    <td>
+                        Content 4
+                    </td>
+                </tr>
+            </table>
+
+            <img src="Screenshot%202024-02-07%20072302.png" alt="">
+
+            </div>
+
+            <hr>
+
+            <div id="Box-Model">
+                <h3>
+                    Box Model
+                </h3>
+
+                <img src="Screenshot%202024-02-07%20113449.png" alt="Box-Model" >
+
+            </div>
+
+            <div id="Return-Button">
+                <a href="#Html-Navbar">
+                    <img src="arrow-up.svg">
+                </a>
+            </div>
+        </div>
 </body>
 </html>
