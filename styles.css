@@ -1,7 +1,7 @@
 
 body{
     font-family: Arial, sans-serif, Helvetica;
-    background-color: white;
+    background-color: #eff6ef;
 
 }
 h1, h2, h3, h4{
@@ -41,7 +41,7 @@ p{
     left: 0;
     width: 100%;
     padding: 20px 10px;
-    background: lightblue;
+    background: #a2a2a2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,6 @@ p{
 
 
 .Title{
-
     font-size: 18px;
     color: #fff;
     text-decoration: none;
@@ -83,6 +82,31 @@ p{
     height: 25rem;
 }
 
+#Html-Information:hover{
+    background-color: lightgray;
+}
+
+#Html-Navbar > div{
+    display: flex;
+
+}
+
+#Html-Navbar > div > div{
+    display: flex;
+}
+
+#Html-Navbar a {
+    text-decoration: none;
+    padding: 2rem;
+    color: #a69f9f;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 2rem;
+}
+
+#Html-Navbar a:hover {
+    background-color: lightgray;
+}
 #CSS-Basics {
     border: solid 1px;
     border-radius: 1rem;
@@ -90,6 +114,10 @@ p{
     width: 15rem;
     height: 25rem;
     margin-top: 10rem;
+}
+
+#CSS-Basics:hover{
+    background-color: lightgray;
 }
 
 #CSS-Basics > a > img {
@@ -101,6 +129,24 @@ p{
 #CSS-Basics > p{
     padding: 0.5rem;
     font-weight: bold;
+
+}
+
+#General-Information{
+    border: solid 1px;
+    border-radius: 1rem;
+    margin-top: 10rem;
+    margin-left: 6rem;
+    width: 14rem;
+}
+
+#General-Information:hover{
+    background-color: lightgray;
+}
+
+#General-Information > a > img{
+    padding-top: 1rem;
+    padding-left: 0.5rem;
 
 }
 
@@ -121,9 +167,7 @@ button{
     border-radius: 8px;
 }
 
-#Links div{
-    display: inline;
-}
+
 
 #basics:hover{
     color: dimgrey;
